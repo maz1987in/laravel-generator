@@ -58,7 +58,7 @@ abstract class BaseRepository extends \Prettus\Repository\Eloquent\BaseRepositor
                         if (array_search('', $new_values) !== false) {
                             unset($new_values[array_search('', $new_values)]);
                         }
-                        Log::info(array_values($new_values));
+                        //Log::info(array_values($new_values));
 //                        if(count(array_values($new_values)) === 0){
 //                            $pivot = $model->$key()->detach(array_values($new_values));
 //                        }else{
